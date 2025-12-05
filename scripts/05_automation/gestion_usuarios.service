@@ -3,6 +3,6 @@ Description=Ejercicio 3
 
 [Service]
 Type=oneshot
-ExecStart=/root/ASO_MDC/scripts/05_automation/backup.sh
+ExecStart=/root/ASO_MDC/scripts/05_automation/gestion_usuarios.sh
 User=root
 Group=root

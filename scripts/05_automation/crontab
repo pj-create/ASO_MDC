@@ -23,3 +23,13 @@
 
 0 7 * * 1-5 /root/Ejercicios_Tema_5/ejercicio1.sh
 30 14 * * 1-5 /root/Ejercicios_Tema_5/ejercicio1.sh
+0 6 * * 1-5 /root/ASO_MDC/scripts/05_automation/transfiere_usuarios.sh
+30 13 * * 1-5 /root/ASO_MDC/scripts/05_automation/transfiere_usuarios.sh
+30 2 * * 1-7 /usr/bin/asdf
+15 * * * 1-7 /usr/bin/asdf
+0 6 * * 1 /usr/bin/asdf
+0 8 * * 6-7 /usr/bin/asdf
+0 5 * 6-8 6-7 /usr/bin/asdf
+*/10 12-17 * * * /usr/bin/asdf
+45 11 23-31 * 5 /usr/bin/asdf
+*/10 0-6 * 6-8 6-7 /usr/bin/asdf
